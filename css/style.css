@@ -108,6 +108,11 @@ p {
     font-family: 'Rubik', sans-serif;
 }
 
+a {
+   display: inline-block;
+   transform: none;
+}
+
 .top-header-area {
    background: #0E0A38;
    color: #fff;
@@ -279,4 +284,87 @@ p {
    margin: 10px 0px;
    
   
+}
+
+/* ==== 3. home  css ==== */
+
+.home{
+   background: url(../images/home/banner-3.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   padding:200px 0;
+   position: relative;
+   z-index: 1;
+
+}
+.home::after {
+   content: '';
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #050133C4;
+   position: absolute;
+   z-index: -1;
+  
+}
+
+.slider-content h4 {
+   font-size: 20px;
+   color: #FF630E;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 600;
+
+}
+
+.slider-content h2 {
+   font-size: 70px;
+   color: #fff;
+   text-transform: capitalize;
+   
+   font-weight: 700;
+   margin: 36px 0;
+
+}
+.slider-description {
+   font-size: 17px;
+   font-weight: 400;
+   color: #fff;   
+   margin: 10px 0px;
+}
+.slider-description p {
+   font-size: 16px;
+   line-height: 28px;
+   font-weight: 300;
+}
+
+.slider-btn {
+   
+}
+.slider-btn .btn {
+background:#fff;
+color:#FF630E;	
+text-decoration: none;
+padding: 20px 30px;
+margin: 15px;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+transition: .3s;
+border-radius: 5px;
+display: inline-block;
+}
+
+.slider-btn .btn-active,
+.slider-btn .btn:hover {
+background:#FF630E;
+color: #fff;
+}
+
+
+.slider-btn .btn-active:hover {
+color:#FF630E;
+background: #fff;
 }

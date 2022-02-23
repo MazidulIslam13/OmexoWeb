@@ -193,3 +193,90 @@ p {
 
 
 /* ==== 2. bottom header area  css ==== */
+.bottom-header-area {
+   background: #fff;
+   padding: 13px 0px;
+  
+}
+
+.web-logo {
+   display: inline-block;
+   padding-top: 5px;
+}
+
+.web-logo img {
+   width: 200px;
+   height: auto;
+   
+}
+
+.main-menu {
+   list-style: none;
+   float: right;
+   padding:20px 0px;
+  
+}
+
+.main-menu li {
+   display: inline-block;
+  
+}
+
+.main-menu li a {
+   color: #130F40;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   transition: .3s;
+   margin: 0 12px;
+
+   text-transform: capitalize;
+  
+}
+
+.main-menu li:first-child a ,
+.main-menu li a:hover{
+   color: #FF630E;
+}
+
+.cart-btn {
+   position: relative;
+}
+
+.cart-btn::before {
+   content: '0';
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   width: 20px;
+   height: 20px;
+   color: #fff;
+   background: #FF630E;
+   text-align: center;
+   border-radius: 50%;
+   line-height: 20px;
+}
+.header-log-reg {
+    border-radius: 5px;
+    float:right ;
+    display: inline-block;
+    
+    margin: 10px 0;
+    height: 45px;
+    background: #FF630E;
+}
+.header-log-reg a {
+   
+   text-decoration:  none;
+   color: #fff;
+   font-size: 16px; 
+   font-weight: 300;
+   font-family: 'Rubik', sans-serif;
+   padding: 4px 15px;
+   display: inline-block;
+   float: left;
+   text-transform: capitalize;
+   margin: 10px 0px;
+   
+  
+}

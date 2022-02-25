@@ -46,6 +46,13 @@ font-family: 'Rubik', sans-serif;
 
  }
 
+ .col-30 {
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+
+ }
+
  .col-33 {
     width: 33.33%;
     float: left;
@@ -353,13 +360,14 @@ img {
 }
 /*
  slider button 
-and 
-category button 
+ category button 
+ courses button 
 
 */
 
 .slider-btn .btn,
-.category-btn .btn
+.category-btn .btn,
+.courses-btn .btn
  {
 background:#fff;
 color:#FF630E;	
@@ -377,8 +385,8 @@ display: inline-block;
 /*
 
 slider button 
-and 
-category
+category button 
+courses button 
 
 button  active
 
@@ -386,7 +394,9 @@ button  active
 
 .slider-btn .btn-active,
 .slider-btn .btn:hover ,
-.category-btn .btn-active
+.category-btn .btn-active,
+.courses-btn .btn-active
+
 {
 background:#FF630E;
 color: #fff;
@@ -468,8 +478,21 @@ background: #fff;
    font-size: 16px;
 }
 
+/*
 
-.category-btn .btn-active:hover {
+
+category button 
+courses button 
+
+button  active
+
+*/
+
+
+.category-btn .btn-active:hover ,
+.courses-btn .btn-active:hover 
+
+{
 color:#fff;
 background: #130f40;
 }
@@ -479,4 +502,99 @@ background: #130f40;
    text-transform: uppercase;
    transition: .3s;
    padding:40px 0 0px 0;
+}
+
+/* ==== 4. courses  css ==== */
+.courses-item {
+   border-radius: 10px;
+   transition: .3s;
+   margin: 20px 0;
+}
+
+.courses-item:hover {
+   box-shadow: 0px 10px 15px 16px rgba(0,0,0,0.1);
+}
+
+.courses-item img {
+   border-radius: 10px;
+}
+
+.courses-content .price {
+   text-align: left;
+   font-size: 24px;
+   font-weight: 700;
+   color: #FF630E;
+   padding: 0 0 10px 0;	
+   display: block;
+}
+.courses-content {
+   margin: 15px 40px 40px 30px;
+}
+.courses-content h3
+ {
+   font-size: 24px;
+   font-weight: 700;
+   color: #130f40;
+   transition: .3s;
+   padding: 0 0 10px 0;
+}
+.courses-content h3:hover {
+   color: #FF630E;
+}
+
+.star {
+   list-style: none;
+   
+}
+.star li {
+   display: inline-block;
+   
+}
+.star li a {
+   color: #FF630E;
+   font-size: 14px;
+   font-weight: 400;
+  
+   padding: 10px 1px;
+  
+}
+
+.star li:last-child a {
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #696969;
+}
+
+.courses-footer {
+   margin: 20px 40px 40px 40px;
+   border-top: 1px solid #eaeaea;
+   padding: 30px 0;
+}
+
+.courses-footer .duration ,
+.courses-footer .user {
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #696969;
+   display: inline-block;
+   
+   
+}
+
+.courses-footer .duration i ,
+.courses-footer .user i{
+   
+   padding: 0px 05px 0 0;
+}
+
+.courses-footer .user{
+   float: right;
+  
+}
+
+.courses-btn {
+   text-align: center;
+   
 }

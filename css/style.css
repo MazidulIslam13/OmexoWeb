@@ -59,6 +59,19 @@ font-family: 'Rubik', sans-serif;
     padding: 0 15px;
 
  }
+ .col-40 {
+    width: 40%;
+    float: left;
+    padding: 0 15px;
+
+ }
+ .col-45 {
+    width: 45%;
+    float: left;
+    padding: 0 15px;
+
+ }
+
 
  .col-50 {
     width: 50%;
@@ -596,5 +609,127 @@ background: #130f40;
 
 .courses-btn {
    text-align: center;
+   padding-bottom: 150px;
    
+}
+
+
+/* ==== . offer css ==== */
+
+.offer{
+   background: url(../images/offer/bg-2.png) no-repeat center;);
+   background-size: cover;
+   position: relative;
+  
+}
+.offer::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: #0E0A38;  
+   width: 100%;
+   height: 100%;
+   z-index: -1;   
+   
+}
+
+.offer-container {
+   margin-top: -120px;
+   
+}
+
+.offer-left img{
+   border: 10px solid #fff;
+   border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+.offer-right {
+   background: #130F40;
+   padding: 100px 50px 238px 50px;
+   margin-bottom: 100px;
+  
+
+}
+
+.offer-right .offer-title span {
+   
+   text-align: left;
+   font-size: 16px;
+   font-weight: 700;
+   color: #ff630e;
+   text-transform: uppercase;
+   padding: 0 0 30px 0;
+   display: block;
+}
+
+.offer-right .offer-title h2 {
+   
+   color: #fff;
+   font-size: 45px;
+   font-weight: 700;
+   padding: 0 0 30px 0;
+   text-transform: capitalize; 
+   
+}
+
+.offer-right-content {
+   padding: 0 0 30px 0;
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+}
+
+.countdown-wrapper {
+   
+}
+
+.countdown-item {
+   display: inline-block;
+   padding: 0 10px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   text-transform: capitalize;
+   margin-right: 40px;
+}
+.countdown-item .countdown-time {
+   font-size: 36px;
+   font-weight: 700;
+   color: #fff;
+   text-transform: capitalize;
+}
+
+
+.countdown-item .countdown-label {
+   display: block;
+   font-size: 14px;
+   font-weight: 400;
+   color: #fff;
+   font-family: 'Rubik', sans-serif;
+}
+
+.offer-btn .btn-active{
+   color:#FF630E;
+   background: #fff;
+   text-transform: capitalize;
+   font-size: 16px;
+   font-weight: 600;
+
+   padding: 10px 30px;
+   margin-top: 50px ;
+   margin-left: 0;
+   transition: .3s;
+   border-radius: 5px;
+
+}
+.offer-btn .btn-active:hover{
+   color: #fff;
+   background: #ff630e;
+   font-weight: 700;
+  
+
 }

@@ -79,6 +79,12 @@ font-family: 'Rubik', sans-serif;
     padding: 0 15px;
 
  }
+ .col-55 {
+    width: 55%;
+    float: left;
+    padding: 0 15px;
+
+ }
 
  .col-60 {
     width: 60%;
@@ -424,6 +430,7 @@ background: #fff;
 
 /* ==== 4. Category  css ==== */
 
+
 .section-title {
   
    padding-bottom: 60px;
@@ -447,9 +454,16 @@ background: #fff;
    color: #130f40;
 }
 
+.category .col-25 {
+   padding: 0;
+}
+
+
+
+
 .category-item {
    text-align: center;
-   margin: 0 auto;
+   margin: 0 25px 0 0;
    padding: 15px 15px 20px 15px;
    box-shadow: 0px 10px 28px -2px rgba(0,0,0,0.1);
 
@@ -521,7 +535,11 @@ background: #130f40;
 .courses-item {
    border-radius: 10px;
    transition: .3s;
-   margin: 20px 0;
+   margin: 20px 20px;
+}
+
+.courses .col-33 {
+   padding: 0;
 }
 
 .courses-item:hover {
@@ -609,12 +627,12 @@ background: #130f40;
 
 .courses-btn {
    text-align: center;
-   padding-bottom: 150px;
+   padding-bottom: 65px;
    
 }
 
 
-/* ==== . offer css ==== */
+/* ==== 5. offer css ==== */
 
 .offer{
    background: url(../images/offer/bg-2.png) no-repeat center;);
@@ -622,6 +640,13 @@ background: #130f40;
    position: relative;
   
 }
+
+.offer .col-45,
+.offer .col-55 {
+
+   padding: 0;
+}
+
 .offer::after {
    content: "";
    position: absolute;
@@ -650,6 +675,10 @@ background: #130f40;
    background: #130F40;
    padding: 100px 50px 238px 50px;
    margin-bottom: 100px;
+   margin-left: 20px;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+
   
 
 }
@@ -732,4 +761,76 @@ background: #130f40;
    font-weight: 700;
   
 
+}
+
+/* ==== 6. Testimonial css ==== */
+
+.testimonial {
+   margin: 50px 0;
+  
+}
+
+.test-content .col-33 {
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+   
+}
+
+.test-item {
+ 
+   padding: 35px 55px 45px 40px;
+   transition: .3s;
+   -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.13); 
+   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.13);
+   margin-right: 40px;
+
+          
+         
+
+}
+
+.test-item:hover {
+   box-shadow: 0px 10px 15px 16px rgba(0,0,0,0.1);
+}
+
+.test-item .fa-quote-right {
+   font-size: 40px;
+   color: #ff630e;
+   font-weight: 900;
+}
+
+.test-item p{
+   margin: 10px 0;
+   color: #696969;
+}
+
+.test-footer {
+   margin-top: 20px;
+   display: flex;
+
+}
+.test-footer img {
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.test-info  h3{
+   font-size: 20px;
+   font-weight: 700;
+   color: #130f40;
+   text-transform: capitalize;
+   margin: 5px 0;
+}
+
+
+.test-info span{
+   font-family: "Rubik", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #696969;
+   text-transform: capitalize;
+   margin-top: 10px;
+   display: block;
 }

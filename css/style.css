@@ -36,39 +36,38 @@ font-family: 'Rubik', sans-serif;
 .col-20 {
     width: 20%;
     float: left;
-    padding: 0 15px;
+    
 
  }
 .col-25 {
     width: 25%;
     float: left;
-    padding: 0 15px;
+    
 
  }
 
  .col-30 {
     width: 30%;
     float: left;
-    padding: 0 15px;
-
+ 
  }
 
  .col-33 {
     width: 33.33%;
     float: left;
-    padding: 0 15px;
+  
 
  }
  .col-40 {
     width: 40%;
     float: left;
-    padding: 0 15px;
+ 
 
  }
  .col-45 {
     width: 45%;
     float: left;
-    padding: 0 15px;
+   
 
  }
 
@@ -76,49 +75,47 @@ font-family: 'Rubik', sans-serif;
  .col-50 {
     width: 50%;
     float: left;
-    padding: 0 15px;
+    
 
  }
  .col-55 {
     width: 55%;
     float: left;
-    padding: 0 15px;
+  
 
  }
 
  .col-60 {
     width: 60%;
     float: left;
-    padding: 0 15px;
+   
 
  }
 
  .col-70 {
     width: 70%;
     float: left;
-    padding: 0 15px;
-
+ 
  }
 
 .col-80 {
     width: 80%;
     float: left;
-    padding: 0 15px;
+  
 
  }
 
  .col-90 {
     width: 90%;
     float: left;
-    padding: 0 15px;
+  
 
  }
 
  .col-100 {
     width: 100%;
     float: left;
-    padding: 0 15px;
-
+   
  }
  
 
@@ -419,6 +416,7 @@ button  active
 {
 background:#FF630E;
 color: #fff;
+
 }
 
 
@@ -454,9 +452,6 @@ background: #fff;
    color: #130f40;
 }
 
-.category .col-25 {
-   padding: 0;
-}
 
 
 
@@ -538,9 +533,7 @@ background: #130f40;
    margin: 20px 20px;
 }
 
-.courses .col-33 {
-   padding: 0;
-}
+
 
 .courses-item:hover {
    box-shadow: 0px 10px 15px 16px rgba(0,0,0,0.1);
@@ -641,11 +634,6 @@ background: #130f40;
   
 }
 
-.offer .col-45,
-.offer .col-55 {
-
-   padding: 0;
-}
 
 .offer::after {
    content: "";
@@ -770,11 +758,7 @@ background: #130f40;
   
 }
 
-.test-content .col-33 {
-   padding: 0 0 0 0;
-   margin: 0 0 0 0;
-   
-}
+
 
 .test-item {
  
@@ -782,7 +766,8 @@ background: #130f40;
    transition: .3s;
    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.13); 
    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.13);
-   margin-right: 40px;
+   margin: 40px 40px 0px 0px;
+   border-radius: 10px;
 
           
          
@@ -791,6 +776,11 @@ background: #130f40;
 
 .test-item:hover {
    box-shadow: 0px 10px 15px 16px rgba(0,0,0,0.1);
+}
+
+
+.test-top{
+   margin-top: -20px;
 }
 
 .test-item .fa-quote-right {
@@ -833,4 +823,135 @@ background: #130f40;
    text-transform: capitalize;
    margin-top: 10px;
    display: block;
+}
+
+/* ==== 7. subscribe css ==== */
+
+
+.subscribe-section {
+   margin: 100px 0 100px 0;
+  
+  
+}
+.subscribe-container {
+   background: #0E0A38;
+   padding: 60px;
+   color: #fff;
+   border-radius: 60px;
+
+}
+
+.subscribe-container h2 {
+   font-size: 45px;
+   color: #fff;
+   font-weight: 700;
+   
+   
+   text-transform: capitalize;
+   display: inline-block;
+  
+   
+}
+.subscribe-form {
+  
+   float: right;
+   display: inline-block;
+  
+}
+.subscribe-form input[type='email'] {
+   border: none; 
+   font-size: 16px;
+   font-weight: 400;
+   padding: 15px 150px 15px 15px;
+         
+}
+
+
+.subscribe-form input[type='submit'] {
+   border: none; 
+   font-size: 16px;
+   font-weight: 400;
+   padding: 15px 20px;
+   background: #ff630e;
+   color: #fff;
+   text-transform: capitalize;
+   margin-left: -5px;
+   transition: .3s;
+   border-radius: 0 5px 5px 0 ;
+         
+}
+  
+.subscribe-form input[type='submit']:hover{
+   color: #fff;
+   background: #833207;
+  
+   
+
+}
+.subscribe-content {
+   margin-top: 115px;
+  
+}
+.subscribe-item-left h2 {
+   font-size: 45px;
+   color: #130F40;
+   font-weight: 700;
+   text-transform: capitalize;
+   margin-bottom: 40px;
+   
+}
+.subscribe-item-left p {
+   font-size: 16px;
+   font-weight: 400;
+   color: #696969;
+   margin-bottom: 30px;
+
+
+
+}
+
+
+
+.subscribe-item-left .courses-btn, .subscribe-item-left .btn{
+   text-align: left;
+  
+   margin: 0;
+}
+
+.subscribe-item-right {
+   
+   display: flex;
+  
+}
+.subscribe-item  {
+   margin: 0px 0px 60px 60px;
+   display: flex;
+}
+
+.subscribe-item .text {
+   margin-left: 10px;
+}
+
+.subscribe-item .text h2 {
+   font-size: 24px;
+   color: #130F40;
+   font-weight: 700;
+   margin-bottom: 25px;
+
+}
+
+.subscribe-item .text p {
+   font-size: 16px;
+   font-weight: 400;
+   color: #696969;
+   margin-bottom: 30px;
+
+}
+
+
+.subscribe-item .icon  i {
+   font-size: 40px;
+   color: #ff630e;
+   font-weight: 900;
+   margin-right: 20px;
 }
